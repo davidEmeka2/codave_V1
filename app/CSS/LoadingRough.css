@@ -1,0 +1,63 @@
+ 
+
+ .loadingSec{
+    height: 100vh;
+    width:100vw;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+  }
+ 
+  .loadImgDiv{
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+   
+ 
+ }
+ 
+ 
+ /* .loadAnim1{
+    position: absolute;
+    left: 5%;
+ }
+ 
+ .loadAnim2{
+    position: absolute;
+    top: 5%;
+ }
+ 
+ .loadAnim3{
+    position: absolute;
+    right: 5%;
+ }
+ 
+ .loadAnim4{
+    position: absolute;
+    bottom: 5%;
+ } */
+ 
+ .loadBarAphla{
+    height: 30px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+ }
+ 
+ .loadProgress{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50px;
+ 
+ }

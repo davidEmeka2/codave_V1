@@ -1,0 +1,653 @@
+#section1{
+    height: 300vw;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: relative;
+
+}
+
+.sec1Sticker{
+    position: sticky;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.sec1Main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    background-color:"";
+    transition: background-color 300ms ease-in-out;
+  
+}
+
+
+
+
+/* ///////////////// Moon ////////////////// */
+/* 
+.sec1MoonDiv{
+    position: fixed;
+    height: 200vh;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid yellow; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+ */
+
+
+
+/* //////////////////// Character ////////////////// */
+
+
+.chracterDiv{
+    position: fixed;
+    bottom: -15px;
+    z-index: 10;
+}
+
+
+
+/* ///////////////// Trees Secs ////////////////// */
+
+
+.sec1MainSec1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.sec1MainSec2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.sec1MainSec2_1{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1MainSec2_2{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* .sec1MainSec2_2::before{
+    content:" ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dyrzp2wi6/image/upload/v1774275741/codave/sec1Image_dn3exb.png");
+    background-position:bottom;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    opacity: 0.5;
+
+} */
+
+
+.sec1Img1Div{
+    position: absolute;
+    right: 0;
+    padding: 50px;
+    border: 1px solid white;
+}
+
+
+.sec1MainSec3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid white; */
+    
+}
+
+
+/* .sec1MainSec3::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(" ");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+} */
+
+
+.sec1MainSec4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid orange; */
+  
+
+}
+
+/* ///////// grass /////// */
+
+.grassDiv{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+    left: 0;
+   
+
+
+
+}
+
+
+.grassDiv2{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+   
+    height: 10vh;
+    /* border: 2px solid black; */
+    right: 0;
+  
+    
+}
+
+.grassImg{
+    position: absolute;
+    bottom: -5px;
+    filter: grayscale(1);
+    z-index: 1;
+    left: 0;
+
+}
+
+
+.grassImg2{
+    position: absolute;
+    bottom: -5px;
+    filter: grayscale(1);
+    z-index: 1;
+    right: 0;
+
+}
+
+
+/* //////////// Trees /////////// */
+
+
+.treeDiv{
+    position: absolute;
+    height: 100px;
+    width: 80%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+  
+
+}
+
+
+.treeImg1{
+    position: absolute;
+    bottom: -70px;
+    filter: grayscale(1);
+
+
+}
+
+
+/* //////////////////////// Section 2 Tree //////////////////// */
+
+
+.treeDiv1{
+    position: absolute;
+    left: 0;
+    height: 300px;
+    width: 65%;
+    /* border: 2px solid black; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+
+    
+
+}
+
+.treeImg2{
+    position: absolute;
+    filter: grayscale(1);
+    left: -5%;
+    bottom: -50px;
+    flex-shrink: 0;
+}
+
+
+.treeDiv2{
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 65%;
+
+    /* border: 2px solid black; */
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.treeImg3{
+    position: absolute;
+    filter: grayscale(1);
+    right: -5%;
+    bottom: -50px;
+    flex-shrink: 0;
+
+}
+
+
+
+/* //////////////////////// Clouds /////////////////////// */
+
+.cloudsDiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black;  */
+}
+
+.cloudsDiv1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* border: 2px solid black;  */
+}
+
+
+.cloudsDiv2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    /* border: 2px solid black;  */
+}
+
+
+/* ////////////////// section text //////////////////////// */
+
+.sec1Sec1txt1{
+
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    position: absolute;
+    left: 2%;
+  
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    /* border: 2px solid black; */
+
+}
+
+.sec1Sec1txt2{
+
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    position: absolute;
+    right: 2%;
+   
+    height: 70px;
+    width: 300px;
+    
+    text-align: center;
+
+}
+
+
+.sec1Sec2txt{
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.sec1Sec2txt2{
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-size: 22px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    /* border: 2px solid black; */
+}
+
+
+
+/* ////////////////////////// sec1 Main 3 ///////////////////// */
+
+
+
+.handImgDiv{
+    position: absolute;
+    /* border: 2px solid white; */
+    top: 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+
+}
+
+
+.sec1HandDiv{
+    transform: rotate(210deg);
+    position: absolute;
+    top:-50px
+}
+
+
+
+.sec3Mainh1{
+
+    font-family: "BBH Hegarty", sans-serif;
+    font-size: 10vw;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+}
+
+.sec1Stats{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+
+    /* border: 1px solid white; */
+
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sec1Stats div{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.sec1Stats p{
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+
+}
+
+.sec1Stats span{
+    font-size: 50px;
+}
+
+
+.heroStats1{
+
+}
+
+
+/* //////////////////// Sec 1 Media Queries ///////////////////// */
+
+@media (max-width:1150px) {
+    .sec1Sec1txt1{
+        top: 30%;
+        font-size: 20px;
+    }
+
+    .sec1Sec1txt2{
+        top: 30%;
+        font-size: 20px;
+    }
+
+    .sec1Sec2txt{
+        top:30%;
+        font-size: 20px;
+    }
+
+    .sec1Sec2txt2{
+        top: 30%;
+        font-size: 20px;
+
+
+    }
+
+    
+
+    .treeImg2{
+        left: -15%;
+    }
+    
+    .treeImg3{
+       
+        right: -15%;
+       
+    
+    }
+
+    
+
+}
+
+@media (max-width:700px) {
+    .sec1Sec1txt1{
+        
+        font-size: 17px;
+        width: 200px;
+    }
+
+    .sec1Sec1txt2{
+        font-size: 17px;
+
+        width: 200px;
+    }
+
+    .sec1Sec2txt{
+       
+        font-size: 17px;
+       
+    }
+
+    .sec1Sec2txt2{
+       
+        font-size: 17px;
+      
+
+
+    }
+}
+
+@media (max-width:600px) {
+
+    
+
+    .treeDiv{
+        width: 90%;
+    }
+
+    .treeDiv1{
+        width: 70%;
+        display: none;
+
+    }
+
+    .treeImg2{
+        left: -10%;
+    }
+
+
+   
+
+    .treeDiv2{
+        width: 90%;
+    }
+
+    .treeImg3{
+       right: -10%;
+    
+    }
+
+    .sec1Stats span{
+        font-size: 40px;
+    }
+
+    .sec1Stats p{
+        font-size: 14px;
+
+    }
+
+
+
+
+
+
+    
+}
+
+@media (max-width:500px) {
+
+    .grassDiv{
+        width: 120%;
+    }
+
+    .grassDiv2{
+        width: 120%;
+
+    }
+
+
+    .treeDiv{
+        width: 115%;
+    }
+
+    .treeDiv2{
+        width: 115%;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .sec1Sec1txt2{
+        top: 40%;
+    }
+
+    .sec1Stats span{
+        font-size: 30px;
+    }
+
+    .sec1Stats p{
+        font-size: 12px;
+        
+    }
+    
+}
+
+
+@media (max-width:400px) {
+    .sec1Sec1txt2{
+        top: 45%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+

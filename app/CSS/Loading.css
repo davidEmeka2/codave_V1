@@ -1,0 +1,165 @@
+
+/* ///////// Loading //////////// */
+
+
+
+
+#loading{
+   height: 100vh;
+   width: 100%;
+   overflow: hidden;
+
+}
+
+.loadingAlpha{
+   width: 100%;
+   height: 200vh;
+}
+
+.loadProgressDiv{
+   height: 100vh;
+   width: 100%;
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+
+}
+
+.loadBar{
+   width: 90%;
+   height: 70px;
+   border-radius: 20px;
+   border: 3px solid black;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   bottom: 50px;
+
+}
+
+.loadReveal{
+   height: 100%;
+   position: absolute;
+   width: 0;
+   left: 0;
+   background-color: black;
+   border-radius: 10px;
+   transition: width 100ms ease-in-out;
+ 
+}
+
+.loadPercent{
+   position: absolute;
+   font-family: "Orbitron", sans-serif;
+   font-size: 50px;
+   line-height: 1;
+   right: 1%;
+   color: #aaaa;
+
+}
+
+
+
+/* ///////////// Codave preview ///////////// */
+
+
+
+.previewSec{
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   transform-style: preserve-3d ;
+   perspective: 1000;  
+   display: flex;
+   position: relative;
+   /* border: 2px solid red; */
+   flex-direction: column; 
+   background-color: white;
+   transition: background-color 0.5s ease-in-out;
+  
+}
+
+.prevMaskSec{
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   mask-image: url("https://res.cloudinary.com/dyrzp2wi6/image/upload/v1773603657/codave/codave_ek2ycd.png");
+   mask-position: center;
+   mask-size: 100%;
+   mask-repeat: no-repeat;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+
+/* .prevMaskSec::before{
+   position: absolute;
+   content: " ";
+   height: 100%;
+   width: 100%;
+   mask-image: url("https://res.cloudinary.com/dyrzp2wi6/image/upload/v1773603657/codave/codave_ek2ycd.png");
+   mask-position: center;
+   mask-size: 100%;
+   background-color: #aaaaaa45;
+
+
+} */
+
+.loadMarquee{
+   width: 100%;
+   /* border: 2px solid #aaaaaa2a; */
+   top: 5%;
+   left: 0;
+   font-size: 5vw;
+   color: #aaaaaa;
+   font-family: "Orbitron", sans-serif;
+}
+
+
+.prevbottomDiv{
+   position: absolute;
+   height: 30vh;
+   width: 100%;
+   /* border: 2px solid white; */
+   bottom: 0;
+   left: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 3%;
+   padding-right: 3%;
+   
+}
+ 
+
+.prevbottomDiv p{
+   color: white;
+   font-family: "Orbitron", sans-serif;
+   font-size: 7vw;
+}
+
+
+.prevbottomDiv button{
+   border: 3px solid white;
+   height: 100px;
+   width: 250px;
+   border-radius: 50px;
+   color: white;
+   font-family: "Orbitron", sans-serif;
+   cursor: pointer;
+ }
+ 
+ .prevbottomDiv button:hover{
+   box-shadow: 0px 5px 10px white;
+ }
+ 
+ .prevbottomDiv button:active{
+   background-color: white;
+   color: black;
+ }

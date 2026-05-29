@@ -1,0 +1,56 @@
+.sec2_5{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.sec2_5::before{
+    content: " ";
+    height: 120%;
+    width: 100%;
+    background-color: #141414;
+    position: absolute;
+    top: 0;
+    mask-image: linear-gradient(to top, transparent, #141414 );
+    mask-position: top;
+}
+
+
+.h1DivAplpha{
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+
+.h1Div{
+    height: auto;
+
+    width: 100%;
+    position: absolute;
+    /* border: 2px solid green; */
+    overflow: hidden;
+  
+
+}
+
+.projectsh1{
+    font-family: "BBH Hegarty", sans-serif;
+    font-size: 16vw;
+    color: black;
+
+   
+}
