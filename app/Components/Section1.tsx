@@ -178,10 +178,11 @@ function Section1() {
 
    <motion.section id="section1" ref={sec1ScrollRef} initial={{opacity:0, y:50}} animate={{opacity:1, y:0, transition:{ duration:0.3, ease:"easeInOut",}}} >
 
-
-   <Image src={"/aboutImgs/mouseScroll.png"} height={100}  width={100} alt="scrollIndicator"  className="scrollIndicator" />
+{/* 
+   <Image src={"/aboutImgs/mouseScroll.png"} height={100}  width={100} alt="scrollIndicator"  className="scrollIndicator" /> */}
 
    
+      
       
 
 

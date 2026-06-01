@@ -43,15 +43,13 @@ export default function Home() {
    const [loadingOn, setLoadingOn] = useState<boolean>(true)
   
   
-  
+
   return (
     <>
 
     {loadingOn ? <Loading setLoadingOn={setLoadingOn} loadingOn={loadingOn} />
 
     : <Sections/>}
-
-
 
     
     </>
